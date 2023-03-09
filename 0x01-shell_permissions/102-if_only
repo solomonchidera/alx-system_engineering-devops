@@ -1,3 +1,3 @@
 #!/bin/bash
-[ $(ls -l hello | awk '{print $3}') == "guillaume" ] && sudo chown betty hello
+&& sudo chown betty hello
 
