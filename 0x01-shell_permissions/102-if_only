@@ -1,2 +1,3 @@
 #!/bin/bash
-chown root hello
+[ $(ls -l hello | awk '{print $3}') == "guillaume" ] && sudo chown betty hello
+
