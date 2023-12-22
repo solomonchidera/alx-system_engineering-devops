@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# bash scripts that prints "Best school" ten times using the while loop
+
+counter=0
+while [ $counter -lt 10 ]
+do
+	if [ $counter -eq 8 ]; then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((counter++))
+done
+
+# Observe the ninth iteration
