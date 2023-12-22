@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Dispaly Best school with bad and good luck stuff
 
 counter=1
