@@ -68,6 +68,3 @@ bye
 ## Conclusion
 
 This guide provides basic commands for using SFTP to transfer files securely between a local machine and a remote server. Refer to the [official documentation](https://www.openssh.com/manual.html) for more advanced options and features.
-```
-
-This guide covers the basics of connecting to an SFTP server, navigating directories, uploading and downloading files, and closing the SFTP session. Customize it based on your specific SFTP server details and requirements.
