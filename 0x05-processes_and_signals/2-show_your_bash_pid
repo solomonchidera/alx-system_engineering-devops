@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display the files that has bash and their process
+ps aux | grep -w bash
