@@ -28,7 +28,7 @@ We prioritize automated testing to ensure the reliability of the codebase. Unit 
 
 ## DevOps
 
-### Continuous Integration (CI)
+### Continuous Integration (CI).
 
 We use a CI pipeline to automate the build and testing processes. Every push to the repository triggers the CI pipeline, ensuring that the code is continuously integrated and validated.
 
