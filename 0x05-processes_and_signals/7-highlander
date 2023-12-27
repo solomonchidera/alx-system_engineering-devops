@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Printing beyond dreams and featuring sleep in it
+trap 'echo "I am invincible!!!"' SIGTERM
+counter=1
+while [ $counter -le 10 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
