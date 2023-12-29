@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Display Clock
 
-hour=1
+hour=0
 
-while [ $hour -lt 13 ]; do
+while [ $hour -lt 12 ]; do
 	echo "Hour:" $hour
 	minute=1
 
