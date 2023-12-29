@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # echo "Content of the current directory in list format (excluding hidden files):"
 
 for file in *; do
