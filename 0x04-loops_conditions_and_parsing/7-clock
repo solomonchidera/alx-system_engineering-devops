@@ -3,7 +3,7 @@
 
 hour=0
 
-while [ $hour -lt 12 ]; do
+while [ $hour -lt 13 ]; do
 	echo "Hour:" $hour
 	minute=1
 
