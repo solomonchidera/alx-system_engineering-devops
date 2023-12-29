@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# echo "Content of the current directory in list format (excluding hidden files):"
+
+for file in *; do
+    # Check if the file is not hidden (doesn't start with a dot)
+    if [[ $file != .* ]]; then
+        # Extract the part of the name after the first dash
+        name_after_dash=$(echo "$file" | cut -d'-' -f2-)
+
+        # Display the modified name
+        echo "$name_after_dash"
+    fi
+done
+
