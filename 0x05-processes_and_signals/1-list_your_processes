@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Display list of running processes
 
-pstree -p
 ps aux
