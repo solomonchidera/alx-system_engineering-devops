@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 # Displaying Fizz Buzz and FizzBuzz
 
-number=1
-
-for (($number=1; $number -le 100; $number++))
+for ((number=1; number <= 100; number++))
 do
-	if (($number % 3 == 0 && $number % 5 == 0)); then
+	if ((number % 3 == 0 && number % 5 == 0)); then
 		echo "FizzBuzz"
-	elif (($number % 5 == 0)); then
+	elif ((number % 5 == 0)); then
 		echo "Buzz"
-	elif (($number % 3 == 0)); then
+	elif ((number % 3 == 0)); then
 		echo "Fizz"
 	else
 		echo "$number"
