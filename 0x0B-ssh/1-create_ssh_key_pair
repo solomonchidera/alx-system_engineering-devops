@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# A bash script that generates an SSH key pair
 # Set key name and bit size
 key_name="school"
 key_bits=4096
