@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Set key name and bit size
+key_name="school"
+key_bits=4096
+
+# Generate the key pair with a passphrase
+ssh-keygen -t rsa -b "$key_bits" -f "$key_name" -N "betty" -C "Your Comment Here"
+
+# Explanation of Flags:
+# -t rsa: Specifies the key type as RSA
+# -b 4096: Sets the number of bits in the key to 4096
+# -f school: Specifies the base file name for the keys ("school" in this case)
+# -N "betty": Sets the passphrase to "betty" 
+# -C "Your Comment Here":  Adds an optional comment associated with the key pair
