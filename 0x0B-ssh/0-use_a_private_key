@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # A bash script that establishes an SSH connection to a server using a private key
-
 server_ip="54.157.131.226"
 private_key_path="~/.ssh/school"
-
 # Establish SSH connection using the specified private key
 ssh -i "$private_key_path" ubuntu@"$server_ip"
