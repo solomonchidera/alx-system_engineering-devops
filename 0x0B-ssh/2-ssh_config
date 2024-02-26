@@ -1,3 +1,4 @@
+#!/bin/env bash
 # SSH config file for the local SSH client
 Host *
       User ubuntu
