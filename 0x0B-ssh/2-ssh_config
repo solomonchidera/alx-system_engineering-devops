@@ -1,0 +1,5 @@
+# SSH config file for the local SSH client
+Host *
+      User ubuntu
+      IdentityFile ~/.ssh/school 
+      PasswordAuthentication no
