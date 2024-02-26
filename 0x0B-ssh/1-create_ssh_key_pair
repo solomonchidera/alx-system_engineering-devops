@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # A bash script that generates an SSH key pair
 # Set key name and bit size
 key_name="school"
