@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Install nginx, delete the the default configuration file, create anew one, then configure my two new server to look like the first one
+
+# Update package index and install Nginx
+sudo apt update
+sudo apt install nginx -y
+
+# Ignore SC2154 for shellcheck
+# shellcheck disable=SC2154
+
+# Define the custom header configuration
+header_config="add_header X-Served-By \$hostname;"
+
+echo "Hello World" | sudo tee /var/www/html/index.html
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+
+# Restart Nginx to apply the changes
+sudo systemctl restart nginx
