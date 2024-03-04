@@ -9,7 +9,7 @@ sudo apt install nginx -y
 # shellcheck disable=SC2154
 
 # Define the custom header configuration
-header_config="add_header X-Served-By \$hostname;"
+sudo sed -i "48i\\\tadd_header X-Served-By \"$HOSTNAME\";\n" /etc/nginx/sites-available/dafault
 
 echo "Hello World" | sudo tee /var/www/html/index.html
 echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
