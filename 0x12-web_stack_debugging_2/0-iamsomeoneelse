@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# bash script that runs who am ii in every user that is appended as an argument
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <username>"
+  exit 1
+fi
+
+user=$1
+
+# Run the whoami command as the specified user
+sudo -u "$user" whoami
+
