@@ -59,6 +59,7 @@ We welcome contributions from the community. To contribute:
 3. Make changes and commit: `git commit -m "Add new feature"`
 4. Push to the branch: `git push origin feature-name`
 5. Create a pull request.
+6. We will review and merge as soon as possible
 
 Please read the [contribution guidelines](CONTRIBUTING.md) for more details.
 
