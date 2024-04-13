@@ -11,7 +11,7 @@ We understand this service issue has impacted our valued users, and we apologize
 
 **Issue Summary**
 
-From 9:22 am, Most Users that were online noticed that request made to our discord bot, returned nothing but "The application did not respond" error
+From 9:22 am, April 10, 2024, Most Users that were online noticed that request made to our discord bot, returned nothing but "The application did not respond" error
 by 9:25 it was confirmed that 100% of our users were facing this issue, no one
 could make a successful request with a valid response, The root cause of this
 outage was replit tab that was closed since we where hosting then on replit.
