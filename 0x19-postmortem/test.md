@@ -5,6 +5,7 @@
 **Summary:**
 * On April 10th, 2024, users reported that the `!weather` command stopped providing any response. Partial functionality was restored quickly by rolling back the latest code change, with a permanent fix deployed shortly after.
 * Outage Duration: April 10th, 2024. 18:30 WAT – 20:15 WAT (approximately 1 hour, 45 minutes).
+
 **Timeline:(all time zone in WAT)**
 * **2024-04-10 18:30:** First reports of `!weather` command not working.
 * **2024-04-10 18:45:** Team confirms the issue and begins investigation.
