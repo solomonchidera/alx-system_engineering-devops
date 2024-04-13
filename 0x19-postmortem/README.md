@@ -1,4 +1,4 @@
 # CODINGHK DISCORD BOT OUTTAGE INCIDENT REPORT
-*Posted by: Solomon Chidera Oyoke*
+*Posted on: April 13, 2024*
 
 By Codinghk Discord Bot Team
